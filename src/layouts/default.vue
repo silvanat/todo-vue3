@@ -65,7 +65,7 @@ const alertStore = useAlertStore();
 const drawer = ref(null);
 
 const items = [
-  { text: "Home", icon: "mdi-home", to: "/home" },
+  { text: "Home", icon: "mdi-home", to: "/" },
   { text: "Sobre o App", icon: "mdi-alert-circle", to: "/about" },
 ];
 </script>
