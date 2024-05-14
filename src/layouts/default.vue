@@ -11,9 +11,9 @@
       >
         <v-list>
           <v-list-item
-            prepend-avatar="https://github.com/yurimarcon/avatars/blob/main/Colored/ToyFaces_Colored_BG_47.jpg?raw=true"
-            subtitle="To Do List"
-            title="Silvana"
+            prepend-avatar="/checklist.png"
+            subtitle="Suas tarefas"
+            title="App"
           >
           </v-list-item>
         </v-list>
@@ -46,7 +46,7 @@
       </template>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-app-bar-title>To Do List</v-app-bar-title>
+      <v-app-bar-title>Suas tarefas</v-app-bar-title>
     </v-app-bar>
 
     <v-main>

@@ -15,9 +15,11 @@
           </v-list-item-action>
         </template>
 
-        <v-list-item-title>{{ task.title }}</v-list-item-title>
+        <v-list-item-title :class="task.done ? 'lineThrough' : ''">{{
+          task.title
+        }}</v-list-item-title>
 
-        <v-list-item-subtitle>
+        <v-list-item-subtitle :class="task.done ? 'lineThrough' : ''">
           {{ task.description }}
         </v-list-item-subtitle>
         <template v-slot:append>
@@ -54,3 +56,9 @@ import DialogDelete from "@/components/dialogs/DialogDelete.vue";
 import { useTaskStore } from "@/stores/task";
 const taskStore = useTaskStore();
 </script>
+
+<style>
+.lineThrough {
+  text-decoration: line-through;
+}
+</style>

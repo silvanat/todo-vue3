@@ -1,7 +1,7 @@
 <template>
   <v-text-field
     clearable
-    label="Add Tasks"
+    label="Adicionar tarefa"
     :rules="rules"
     v-model="taskStore.titleTaskCreating"
     @keyup.enter="taskStore.addTask"
