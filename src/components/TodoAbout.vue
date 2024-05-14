@@ -32,22 +32,6 @@
       </v-timeline>
     </v-card-text>
   </v-card>
-  <!-- <v-parallax src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
-    <div class="d-flex flex-column fill-height align-center text-white">
-      <h1 class="text-h4 font-weight-thin mb-4 padding">
-        Aplicativo de criação de notas feito em Vue.
-      </h1>
-      <h4 class="subheading">Recursos e ferramentas:</h4>
-
-      <v-list lines="two" class="lista">
-        <v-list-item
-          v-for="(item, index) in items"
-          :key="index"
-          :title="item.title"
-        ></v-list-item>
-      </v-list>
-    </div>
-  </v-parallax> -->
 </template>
 
 <script setup>
@@ -55,10 +39,10 @@ const items = [
   { title: "Vue", color: "deep-purple-lighten-1" },
   { title: "Vuetify", color: "green" },
   { title: "Pinia", color: "orange" },
-  { title: "Yarn", color: "green" },
-  { title: "Animated.css", color: "green" },
-  { title: "Netlify", color: "green" },
-  { title: "Vite", color: "green" },
+  { title: "Yarn", color: "blue-darken-1" },
+  { title: "Animated.css", color: "yellow-darken-1" },
+  { title: "Netlify", color: "brown" },
+  { title: "Vite", color: "pink-darken-1" },
 ];
 </script>
 

@@ -1,5 +1,5 @@
-<template></template>
+<template><TodoList /></template>
 
 <script setup>
-//window.location = "./home";
+import TodoList from "@/components/TodoList.vue";
 </script>

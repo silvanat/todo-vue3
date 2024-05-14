@@ -21,6 +21,6 @@ const alertStore = useAlertStore();
   z-index: 1;
   bottom: 50px;
   width: 100%;
-  padding: 0 40%;
+  padding: 0 30%;
 }
 </style>
