@@ -23,4 +23,9 @@ const alertStore = useAlertStore();
   width: 100%;
   padding: 0 30%;
 }
+@media (max-width: 768px) {
+  .alert-notification {
+    padding: 0 5%;
+  }
+}
 </style>
