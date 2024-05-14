@@ -1,5 +1,5 @@
 <template></template>
 
 <script setup>
-//window.location = "./home";
+window.location = "./home";
 </script>
