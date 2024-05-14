@@ -9,10 +9,16 @@
     </v-img>
 
     <v-card-text>
-      <h1 class="text-h4 font-weight-thin mb-4 padding">
+      <h1 class="text-h4 font-weight-thin padding">
         Aplicativo de criação de notas feito em Vue.
       </h1>
-      <div class="font-weight-bold ms-1 mb-2">Recursos:</div>
+      <h2 class="padding font-weight-regular">
+        Git:
+        <a href="https://github.com/silvanat/todo-vue3"
+          >https://github.com/silvanat/todo-vue3</a
+        >
+      </h2>
+      <div class="font-weight-bold ms-1 mb-2 padding">Recursos:</div>
 
       <v-timeline align="start" density="compact">
         <v-timeline-item
