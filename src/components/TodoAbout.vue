@@ -13,8 +13,8 @@
         Aplicativo de criação de notas feito em Vue.
       </h1>
       <h2 class="padding font-weight-regular">
-        Git:
-        <a href="https://github.com/silvanat/todo-vue3"
+        Github:
+        <a href="https://github.com/silvanat/todo-vue3" target="_blank"
           >https://github.com/silvanat/todo-vue3</a
         >
       </h2>
