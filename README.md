@@ -2,6 +2,13 @@
 ![image](https://github.com/silvanat/todo-vue3/assets/1665405/4bc5380c-41f6-4a21-9aca-5edcefe1f9a4)
 
 
+Utilizado nesse projeto:
+- Vuetify 3
+- Pinia
+- Yarn
+- Animated.css
+- Netlify
+- Vite
 
 
 ## 💿 Instalação:
